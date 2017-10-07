@@ -3,7 +3,7 @@ def my_collect(array)
   collection = []
 
     while count < array.length
-        yield(array.uppercase << collection)
+        yield(array << collection)
       count += 1
     end
 end

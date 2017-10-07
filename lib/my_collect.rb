@@ -6,5 +6,4 @@ def my_collect(array)
       yield(collection.upcase)
       count += 1
     end
-  collection
 end
